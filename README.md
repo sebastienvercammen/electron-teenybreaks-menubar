@@ -28,7 +28,9 @@ All contributions are welcome via complete, and documented, pull request.
 
 ## Feature Requests
 
-We use Feathub for feature requests.
+We use [Feathub](https://feathub.com/sebastienvercammen/electron-teenybreaks-menubar) for feature requests.
+
+[![Feature Requests](https://feathub.com/sebastienvercammen/electron-teenybreaks-menubar?format=svg)](https://feathub.com/sebastienvercammen/electron-teenybreaks-menubar)
 
 ## Notes
 
