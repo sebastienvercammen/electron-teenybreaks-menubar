@@ -1,0 +1,33 @@
+{
+  "name": "electron-teenybreaks-menubar",
+  "version": "1.0.0",
+  "description": "Science-based tips for mindful breaks.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "Sébastien Vercammen",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "electron-compile": "^6.4.4",
+    "menubar": "^5.2.3"
+  },
+  "devDependencies": {
+    "electron": "^4.1.0",
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "4.0.0"
+  },
+  "config": {
+    "forge": {
+      "electronPackagerConfig": {
+        "asar": false
+      },
+      "github_repository": {
+        "owner": "sebastienvercammen",
+        "name": "electron-teenybreaks-menubar"
+      }
+    }
+  }
+}

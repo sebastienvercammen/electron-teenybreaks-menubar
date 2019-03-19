@@ -1,0 +1,50 @@
+/* Fonts. */
+@import url("https://fonts.googleapis.com/css?family=Lato|Lora");
+
+/* Remove the white empty space on the edges. */
+html, body { margin: 0; padding: 0; }
+
+/* Some styling to stay consistent w/ the website. */
+body {
+    padding: 1em;
+    color: #FFF;
+    font-family: "Lora", Georgia;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+p, #new-tip, h1 { font-family: "Lato", Arial; }
+h2 { font-size: 30px; }
+
+hr {
+    width: 40%;
+}
+
+#new-tip {
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+    #new-tip:hover,
+    #new-tip:focus,
+    #new-tip:active {
+        transform: scale(1.1);
+    }
+
+/* Background image properties. */
+body {
+    background-position: center center;
+    background-size: cover;
+}
