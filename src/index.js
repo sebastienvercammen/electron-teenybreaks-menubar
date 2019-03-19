@@ -26,7 +26,7 @@ const contextMenu = Menu.buildFromTemplate([{
     label: 'Quit',
     type: 'normal',
     role: 'quit'
-}, ]);
+}]);
 
 // Everything's loaded.
 mb.on('ready', function mbReady() {
